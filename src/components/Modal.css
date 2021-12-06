@@ -1,0 +1,62 @@
+.modal {
+  position: fixed;
+
+  left: 25%;
+  top: 26%;
+  right: 0;
+  bottom: 0;
+  max-width: 50%;
+  height: 50%;
+  background-color: rgb(211, 208, 208, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+
+}
+input {
+  margin-top: 30px;
+  height: 25px;
+  border-radius: 3px;
+  border: none;
+}
+.mtext {
+  margin-right: 20px;
+  position: relative;
+  left: 0;
+}
+button {
+  width: 100px;
+  height: 40px;
+  border-radius: 20px;
+  color: white;
+  background-color: rgb(9, 11, 124);
+  position: absolute;
+  right: 30px;
+  bottom: 12px;
+  border: none;
+}
+label {
+  margin-right: 40px;
+}
+.pass {
+  width: 100%;
+}
+.lpass {
+  position: relative;
+  margin-top: 0;
+  bottom: -16px;
+}
+.mname {
+  position: relative;
+  top: 11px;
+}
+.etext {
+  position: relative;
+  top: -39px;
+  right: -81px;
+}
+h3{
+    position: relative;
+    top: -26px;
+}
